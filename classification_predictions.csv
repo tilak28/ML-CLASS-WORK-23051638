@@ -1,0 +1,54 @@
+Description,Actual Command,Predicted Command
+"Registry: Read, Set, Export, Delete keys and values",REG,REGEDIT
+Manage a volume mount point,MOUNTVOL,FSUTIL
+Conditionally perform a command •,IF,FOR /F
+"Encrypt or Decrypt files/folders, overwrite data.",CIPHER,DIR
+Repair or replace a  partition boot sector,BOOTREC,MBR2GPT
+Suspend processing of a batch file •,PAUSE,TIMEOUT
+Windows Remote Shell,WINRS,WINRM
+Delete a folder and all subfolders,DELTREE,DEL
+Replace or update one file with another,REPLACE,WUAUCLT
+Display networking statistics (NetBIOS over TCP/IP),NBTSTAT,NETSTAT
+Run Preinstallation Environment (WinPE) commands,WPEUTIL,RUN
+Query TermServer List all servers (TS/Remote Desktop),QAppSrv,QWinsta
+Move a user from one domain to another,MOVEUSER,NETDOM
+Uncompress CAB files,EXTRACT,EXPAND
+Sort input,SORT,CON
+Change file timestamps,TOUCH,CACLS
+Manage RAS connections,RASDIAL,RASPHONE
+Run one or more scripts in sequence,ScriptRunner,RUN
+Send a message,MSG,MAPISEND
+Configure a system device COM/LPT/CON,MODE,PRNCNFG
+Search Active Directory (user group computer),DSQuery,DSAdd
+Create or repair a system partition,BCDBOOT,COMPACT
+Change colors of the CMD window •,COLOR,TITLE
+Display file version no. VirusTotal status & timestamp,SIGCHECK,VER
+End a running process,TSKILL,TASKKILL
+Check free disk space,FREEDISK,CHKDSK
+Display message on screen •,ECHO,CLS
+Return to a previous directory saved by PUSHD •,POPD,VERIFY
+Is the current user a member of a group,IFMEMBER,DSAdd
+Display the SID of a computer or a user,PsGetSid,HOSTNAME
+Change the active console Code Page,CHCP,CON
+End localisation of the environment in a batch file •,ENDLOCAL,TASKKILL
+"Display output, one screen at a time",MORE,TIME
+Manage Performance Monitor logs,LOGMAN,TypePerf
+"Add, delete or list print drivers.",PRNDRVR,ADDUSERS
+Batch process multiple files,FORFILES,CALL
+"Start a program, command or batch file •",START,CALL
+Manage certification authority (CA) files and services,CERTUTIL,CERTREQ
+Device Manager Command Line Utility,DevCon,MAPISEND
+Time Zone Utility,TZUTIL,W32TM
+Display volume shadow copy backups + writers/providers,VSSADMIN,DISKSHADOW
+Compress one or more files,COMPRESS,COMPACT
+"Manage Print Queues, print a test page.",PRNQCTL,PRINT
+Manage MiniFilter drivers,FLTMC,DriverQuery
+Wait for or send a signal,WAITFOR,SLEEP
+Change Directory - move to a specific Folder •,CD,CHDIR
+"Do nothing, successfully •",BREAK,::
+"Add, delete, or list printer connections.",PRNMNGR,RUNDLL32
+Loop command: against a set of files •,FOR /F,FOR
+Edit a disk label,LABEL,VOL
+Copy files and folders,XCOPY,DIR
+"Automated cleanup of Temp files, recycle bin",CleanMgr,MOVE
+Features on Demand User Experience Tool,FONDUE,LOGOFF
